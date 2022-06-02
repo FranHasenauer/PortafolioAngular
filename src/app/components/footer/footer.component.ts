@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { faMapLocation } from '@fortawesome/free-solid-svg-icons';
 import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
-  selector: 'app-banner',
-  templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss']
 })
-export class BannerComponent implements OnInit {
-miPortfolio:any;
+export class FooterComponent implements OnInit {
+  faMapLocation = faMapLocation;
+  miPortfolio:any;
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
@@ -16,4 +18,5 @@ miPortfolio:any;
     this.miPortfolio=data;
       });
   }
+
 }
