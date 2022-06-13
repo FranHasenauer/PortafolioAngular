@@ -7,9 +7,8 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./mi-informacion.component.scss']
 })
 export class MiInformacionComponent implements OnInit {
- 
+  miPortfolio:any;
 
-miPortfolio:any;
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
@@ -20,3 +19,4 @@ miPortfolio:any;
   }
 
 }
+

@@ -1,20 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ErrorPersonalizadoComponent } from './error-personalizado.component';
 
-import { HeaderComponent } from './header.component';
-
-describe('HeaderComponent', () => {
-  let component: HeaderComponent;
-  let fixture: ComponentFixture<HeaderComponent>;
+describe('ErrorPersonalizadoComponent', () => {
+  let component: ErrorPersonalizadoComponent;
+  let fixture: ComponentFixture<ErrorPersonalizadoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
+      declarations: [ ErrorPersonalizadoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderComponent);
+    fixture = TestBed.createComponent(ErrorPersonalizadoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

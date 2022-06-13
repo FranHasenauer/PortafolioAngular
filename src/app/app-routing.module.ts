@@ -1,20 +1,23 @@
-import { NgModule } from '@angular/core';
+import {NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MiInformacionComponent } from './components/mi-informacion/mi-informacion.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ErrorPersonalizadoComponent } from './components/error-personalizado/error-personalizado.component';
+
 
 const routes: Routes = [
-{ path: 'skills', loadChildren: () => import('./components/skills/skills.module').then(m => m.SkillsModule) },
-{ path: 'proyectos', loadChildren: () => import('./components/proyectos/proyectos.module').then(m => m.ProyectosModule) },
-{ path: 'info', loadChildren: () => import('./components/mi-informacion/mi-informacion.module').then(m => m.MiInformacionModule) },
+{ path: 'skills', component:SkillsComponent},
+{ path: 'proyectos', component:ProyectosComponent},
+{ path: 'info', component:MiInformacionComponent },
 
 
 
 
 
 
-
-
-
-{path: '**', redirectTo: '', pathMatch: 'full' },
+{path: '', redirectTo: '', pathMatch: 'full'},
+{ path: '**', component:ErrorPersonalizadoComponent },
 ];
 
 @NgModule({
