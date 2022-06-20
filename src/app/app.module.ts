@@ -15,6 +15,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ErrorPersonalizadoComponent } from './components/error-personalizado/error-personalizado.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -28,7 +30,9 @@ import { RouterModule } from '@angular/router';
     ErrorPersonalizadoComponent,
     MiInformacionComponent,
     ProyectosComponent,
-    SkillsComponent
+    SkillsComponent,
+    LoginComponent,
+    
    
   
   ],
@@ -40,12 +44,13 @@ import { RouterModule } from '@angular/router';
     MaterialModule,
     HttpClientModule,
     FontAwesomeModule,
-    RouterModule
+    RouterModule,
+    FormsModule
    
     
     
   ],
-  providers: [PortfolioService],
+  providers: [PortfolioService,FormsModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

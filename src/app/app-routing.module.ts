@@ -4,12 +4,14 @@ import { MiInformacionComponent } from './components/mi-informacion/mi-informaci
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ErrorPersonalizadoComponent } from './components/error-personalizado/error-personalizado.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
 { path: 'skills', component:SkillsComponent},
 { path: 'proyectos', component:ProyectosComponent},
 { path: 'info', component:MiInformacionComponent },
+{ path: 'login', component: LoginComponent },
 
 
 
