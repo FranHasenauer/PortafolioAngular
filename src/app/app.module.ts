@@ -17,6 +17,7 @@ import { ErrorPersonalizadoComponent } from './components/error-personalizado/er
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/login/register/register.component';
 
 
 
@@ -32,6 +33,7 @@ import { LoginComponent } from './components/login/login.component';
     ProyectosComponent,
     SkillsComponent,
     LoginComponent,
+    RegisterComponent,
     
    
   

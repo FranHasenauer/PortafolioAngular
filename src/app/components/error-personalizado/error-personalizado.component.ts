@@ -13,8 +13,9 @@ export class ErrorPersonalizadoComponent implements OnInit {
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data=>{
-        console.log(data);
-    this.miPortfolio=data;
-      });
+      console.log(data);
+  this.miPortfolio=data;
+    });
     }
+    
   }

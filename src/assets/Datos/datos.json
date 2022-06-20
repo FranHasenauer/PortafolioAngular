@@ -3,12 +3,10 @@
     "imgBanner": "assets/BannerFox.jpg",
     "page404": "assets/404error.png",
     "page404descripcion": "Lamentamos el inconveniente, la pagina a la que quiere ingresar no existe. Por favor regrese a la pagina principal.",
-
     "imgPerfil": "assets/img-perfil.jpg",
     "profesion": "Full Stack Developer Jr.",
     "descripcion": "Muy brevemente estudie la Lic. en Sistemas Informáticos en la Facultad de Ciencia y Tecnología (UADER), adquiriendo conocimientos básicos, me considero un eterno estudiante, siempre estoy tratando de aprender cosas nuevas. Durante 11 años trabajé en atención al público, correspondiente al sector funerario, esto potenció la empatia y la solidaridad.Tengo buena predisposicion al trabajo en equipo y me relaciono bien con las personas.",
     "ubicacion": "Parana-Entre Rios, Argentina",
-    
     "proyectos": [
         {
             "nombreCard": "Pagina de cocina",
@@ -40,5 +38,30 @@
             "descripcionCard": "Usando todo lo aprendido y dando con informacion externa, logre crear este portfolio usando librerias como FontAwesome, AngularMaterial y otras.",
             "cardUrl": "http://localhost:4200/"
         }
+    ],
+    "experiencia": [
+        {
+            "nombreEmpresa": "Orfisa SRL",
+            "puesto": "Empleado",
+            "fechaIngreso":"06/05/2011",
+            "fechaEgreso":"null",
+            "desempeño":"Atencion al publico, asesoramiento personalizado",
+            "domicilioEmpresa": "Enrique Carbo 844, Parana-Entre Rios, Argentina",
+            "descripcionEmpresa": "Una empresa con mas de 40 años de experiencia en la atencion y prestacion de servicios funebres, destacada por la empatia y compromiso de sus empleados.",
+            "urlEmpresa": "https://www.google.com/search?q=paginas+de+cocina&hl=es-419&sxsrf=ALiCzsbibsmoKgIXyrQCo56WXGAUQakIEA%3A1654176587685&source=hp&ei=S7uYYpqVKJiq1sQPkbSTiAk&iflsig=AJiK0e8AAAAAYpjJW2FAe-xB_NHGPtkytb1hLAjNxQzC&ved=0ahUKEwja5pz_7474AhUYlZUCHRHaBJEQ4dUDCAY&uact=5&oq=paginas+de+cocina&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyEAgAEIAEEIcCELEDEIMBEBQyBAgAEEMyCwgAEIAEELEDEIMBMg0IABCxAxCDARDJAxBDMgUIABCSAzIFCAAQkgMyBAgAEEMyCwgAEIAEELEDEIMBOgcIIxDqAhAnOggIABCxAxCDAToRCC4QgAQQsQMQgwEQxwEQowI6CgguEMcBENEDEEM6EQguEIAEELEDEIMBEMcBENEDOgQILhBDOgoIABCxAxCDARBDOgcIABCxAxBDUNoDWPcYYPEZaAFwAHgAgAGAAYgBlgWSAQMxLjWYAQCgAQGwAQo&sclient=gws-wiz"
+            
+        },
+        {
+            "nombreEmpresa": "Proyectos personales",
+            "puesto": "Freelancer",
+            "fechaIngreso":"20/06/2022",
+            "fechaEgreso":"null",
+            "desempeño":"creacion de proyectos personales para adquirir conocimientos extras",
+            "domicilioEmpresa": "Parana-Entre Rios, Argentina",
+            "descripcionEmpresa": "Estoy desarrollando a pulmon todo proyecto que se me cruce, avanzando desde lo mas sencillo a lo mas complicado",
+            "urlEmpresa": "www.google.com/proyectos-de-programacion"
+            
+        }
+
     ]
 }
