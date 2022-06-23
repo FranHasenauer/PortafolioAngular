@@ -7,7 +7,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  miPortfolio:any;
+  miPortfolio: any;
 
   constructor(private datosPortfolio:PortfolioService) { }
   

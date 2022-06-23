@@ -44,22 +44,22 @@
             "nombreEmpresa": "Orfisa SRL",
             "puesto": "Empleado",
             "fechaIngreso":"06/05/2011",
-            "fechaEgreso":"null",
-            "desempeño":"Atencion al publico, asesoramiento personalizado",
+            "fechaEgreso":"actualidad",
+            "desemp":"Atencion al publico, asesoramiento personalizado",
             "domicilioEmpresa": "Enrique Carbo 844, Parana-Entre Rios, Argentina",
             "descripcionEmpresa": "Una empresa con mas de 40 años de experiencia en la atencion y prestacion de servicios funebres, destacada por la empatia y compromiso de sus empleados.",
-            "urlEmpresa": "https://www.google.com/search?q=paginas+de+cocina&hl=es-419&sxsrf=ALiCzsbibsmoKgIXyrQCo56WXGAUQakIEA%3A1654176587685&source=hp&ei=S7uYYpqVKJiq1sQPkbSTiAk&iflsig=AJiK0e8AAAAAYpjJW2FAe-xB_NHGPtkytb1hLAjNxQzC&ved=0ahUKEwja5pz_7474AhUYlZUCHRHaBJEQ4dUDCAY&uact=5&oq=paginas+de+cocina&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyEAgAEIAEEIcCELEDEIMBEBQyBAgAEEMyCwgAEIAEELEDEIMBMg0IABCxAxCDARDJAxBDMgUIABCSAzIFCAAQkgMyBAgAEEMyCwgAEIAEELEDEIMBOgcIIxDqAhAnOggIABCxAxCDAToRCC4QgAQQsQMQgwEQxwEQowI6CgguEMcBENEDEEM6EQguEIAEELEDEIMBEMcBENEDOgQILhBDOgoIABCxAxCDARBDOgcIABCxAxBDUNoDWPcYYPEZaAFwAHgAgAGAAYgBlgWSAQMxLjWYAQCgAQGwAQo&sclient=gws-wiz"
+            "urlEmpresa": "https://guiadeparana.com/pagina/Orfisa-SRL/"
             
         },
         {
             "nombreEmpresa": "Proyectos personales",
             "puesto": "Freelancer",
             "fechaIngreso":"20/06/2022",
-            "fechaEgreso":"null",
-            "desempeño":"creacion de proyectos personales para adquirir conocimientos extras",
+            "fechaEgreso":"actualidad",
+            "desemp":"creacion de proyectos personales para adquirir conocimientos extras",
             "domicilioEmpresa": "Parana-Entre Rios, Argentina",
             "descripcionEmpresa": "Estoy desarrollando a pulmon todo proyecto que se me cruce, avanzando desde lo mas sencillo a lo mas complicado",
-            "urlEmpresa": "www.google.com/proyectos-de-programacion"
+            "urlEmpresa": "https://argentinaprograma.inti.gob.ar/"
             
         }
 

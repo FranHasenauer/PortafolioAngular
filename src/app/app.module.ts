@@ -15,7 +15,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ErrorPersonalizadoComponent } from './components/error-personalizado/error-personalizado.component';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/login/register/register.component';
 
@@ -47,7 +47,8 @@ import { RegisterComponent } from './components/login/register/register.componen
     HttpClientModule,
     FontAwesomeModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
    
     
     
