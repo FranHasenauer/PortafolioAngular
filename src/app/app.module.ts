@@ -18,6 +18,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/login/register/register.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 
@@ -35,6 +36,7 @@ import { RegisterComponent } from './components/login/register/register.componen
     LoginComponent,
     RegisterComponent,
     
+    
    
   
   ],
@@ -49,6 +51,15 @@ import { RegisterComponent } from './components/login/register/register.componen
     RouterModule,
     FormsModule,
     ReactiveFormsModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    }),
+    
    
     
     
