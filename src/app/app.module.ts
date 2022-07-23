@@ -15,10 +15,11 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ErrorPersonalizadoComponent } from './components/error-personalizado/error-personalizado.component';
 import { RouterModule } from '@angular/router';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/login/register/register.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { AuthService } from './servicios/auth.service';
 
 
 
@@ -60,11 +61,12 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
       animationDuration: 300,
     }),
     
+    
    
     
     
   ],
-  providers: [PortfolioService,FormsModule],
+  providers: [PortfolioService,FormsModule,AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

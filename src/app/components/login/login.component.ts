@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from 'src/app/auth.service';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -9,15 +9,14 @@ import { AuthService } from 'src/app/auth.service';
 export class LoginComponent implements OnInit {
   email= '';
   password= '';
- 
   
-  constructor(private authService: AuthService) { }
+  
  
-  Login(){
-    this.authService.login(this.email, this.password)
+  //inyectamos en el constructor el FormBuilder
+  constructor() {
+    //Crear el grupo de controles para el formulario de Login
   }
   ngOnInit(): void {
+    throw new Error('Method not implemented.');
   }
-  
-  
 }
